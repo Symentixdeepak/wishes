@@ -23,7 +23,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex items-center h-10 px-2 border-b shrink-0 md:px-6 justify-between">
+    <header className="flex items-center h-16 px-2 border-b shrink-0 md:px-6 justify-between">
       <Link
         href="/"
         className="flex items-center gap-2 text-lg font-semibold md:text-base"
