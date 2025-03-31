@@ -1,0 +1,30 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @layer base {
+    :root {
+      --primary: 142 76% 36%; /* WhatsApp Green */
+      --primary-foreground: 0 0% 100%;
+      
+      --secondary: 142 76% 85%; /* Light Green Tint */
+      --secondary-foreground: 142 76% 30%;
+      
+      --background: 210 17% 98%; /* WhatsApp Light Background */
+      --border: 210 16% 90%; /* Soft Gray */
+      
+    }
+
+    .dark {
+      --primary: 142 76% 36%; /* WhatsApp Green */
+      --primary-foreground: 0 0% 100%;
+      
+      --secondary: 142 76% 25%; /* Dark Green */
+      --secondary-foreground: 142 76% 85%;
+      
+      --background: 220 15% 10%; /* WhatsApp Dark Background */
+      --border: 220 14% 25%; /* Dark Gray */
+      
+    }
+  }
+
