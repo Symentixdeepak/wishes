@@ -21,7 +21,7 @@ export default function Login() {
       <div className="w-full max-w-sm rounded-xl bg-white p-8 shadow-lg">
         <h2 className="mb-6 text-center text-3xl font-bold text-gray-800">Sign In</h2>
         <form onSubmit={handleLogin} className="space-y-4">
-          <div className="relative" st>
+          <div className="relative" >
             <FaUser className="absolute left-3 top-4 text-gray-500" />
             <input
               type="text"

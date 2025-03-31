@@ -9,7 +9,7 @@ export default function Home() {
   const [file, setFile] = useState(null);
   const [data, setData] = useState([]);
 
-  const handleFileUpload = (e) => {
+  const handleFileUpload = (e:any) => {
     const uploadedFile = e.target.files[0];
     setFile(uploadedFile);
 
