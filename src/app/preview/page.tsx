@@ -36,7 +36,7 @@ function PreviewContent() {
                 <th className="p-3 text-left">Name</th>
                 <th className="p-3 text-left">Phone</th>
                 <th className="p-3 text-left">DOB</th>
-                <th className="p-3 text-left">Email</th>
+                <th className="p-3 text-left">Message</th>
               </tr>
             </thead>
             <tbody>
@@ -52,7 +52,7 @@ function PreviewContent() {
                   <td className="p-3 text-gray-800 dark:text-gray-100">{row.Name}</td>
                   <td className="p-3 text-gray-800 dark:text-gray-100">{row.Phone}</td>
                   <td className="p-3 text-gray-800 dark:text-gray-100">{row.DOB}</td>
-                  <td className="p-3 text-gray-800 dark:text-gray-100">{row.Email}</td>
+                  <td className="p-3 text-gray-800 dark:text-gray-100">{row.Message}</td>
                 </tr>
               ))}
             </tbody>
