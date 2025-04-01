@@ -47,9 +47,9 @@ export default function Login() {
             Login
           </button>
         </form>
-        <p className="mt-4 text-center text-sm text-gray-600">
+        {/* <p className="mt-4 text-center text-sm text-gray-600">
           Don't have an account? <a href="/" className="text-primary hover:underline">Sign up</a>
-        </p>
+        </p> */}
       </div>
     </div>
   );
